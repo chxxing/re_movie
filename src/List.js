@@ -19,7 +19,7 @@ const List = ({ genre, limit }) => {
         <div>
             {
                 load
-                    ? <div>Loading....</div>
+                    ? <div>Loading.... <i className="xi-spinner-1"></i></div>
                     :
                     <ul className='List'>
                         {

@@ -1,5 +1,6 @@
 import React from 'react';
 import List from './List';
+import Main from './Main';
 import './common.scss';
 import { Link, Route, Routes } from 'react-router-dom';
 
@@ -30,6 +31,7 @@ const App = () => {
                 }
             </ul>
             <Routes>
+                <Route path='/' element={<Main limit={50} />} />
                 {
                     genreList.map(it => {
                         return (
