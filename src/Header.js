@@ -15,6 +15,7 @@ const Header = ({ children }) => {
                     {children}
                 </nav>
                 <Search />
+                {/* movie={movie} setMovie={setMovie}  */}
             </div>
         </header>
     )
